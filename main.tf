@@ -15,13 +15,13 @@ provider "azurerm" {
 
 # Create a Resource Group
 resource "azurerm_resource_group" "example" {
-  name     = "rg-terraform-demoo"
+  name     = "rg-terraform-demo1"
   location = "East US"
 }
 
 # Create a Storage Account
 resource "azurerm_storage_account" "example" {
-  name                     = "tfstoragedemotgrfgh5"
+  name                     = "tfstoragedemotgrfgh6"
   resource_group_name      = azurerm_resource_group.example.name
   location                 = azurerm_resource_group.example.location
   account_tier             = "Standard"

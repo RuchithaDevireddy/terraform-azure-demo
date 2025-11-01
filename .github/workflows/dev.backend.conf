@@ -1,6 +1,0 @@
-resource_group_name   = "az-900"
-  storage_account_name  = "dumystorageaccount"
-  container_name        = "dev"
-  key                   = "dev.terraform.tfstate"
-  use_azuread_auth      = true
-  subscription_id      = "23804002-cbd4-473c-972d-2fffa924c8aa"

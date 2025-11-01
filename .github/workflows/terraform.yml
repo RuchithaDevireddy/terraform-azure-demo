@@ -29,7 +29,6 @@ jobs:
           creds: ${{ secrets.AZURE_CREDENTIALS }}
 
       - name: Terraform Init
-        working-directory: ./infra
         run: terraform init -backend-config=dev.backend.conf
 
       - name: Terraform Plan
